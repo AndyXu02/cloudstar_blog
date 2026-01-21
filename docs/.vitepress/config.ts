@@ -10,27 +10,18 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '装机指南', link: '/guide/' },
-      { text: '售后与保修', link: '/after-sales/' },
-      { text: 'FAQ', link: '/faq/' }
+      { text: '教程', link: '/tutorial/' }
     ],
     sidebar: {
-      '/guide/': [
+      '/tutorial/': [
         {
-          text: '装机指南',
-          items: [{ text: '概览', link: '/guide/' }]
-        }
-      ],
-      '/after-sales/': [
-        {
-          text: '售后与保修',
-          items: [{ text: '政策与流程', link: '/after-sales/' }]
-        }
-      ],
-      '/faq/': [
-        {
-          text: 'FAQ',
-          items: [{ text: '常见问题', link: '/faq/' }]
+          text: '教程',
+          items: [
+            { text: '教程总览', link: '/tutorial/' },
+            { text: '系统激活', link: '/tutorial/activation' },
+            { text: '重做系统', link: '/tutorial/reinstall' },
+            { text: '故障排查', link: '/tutorial/troubleshooting' }
+          ]
         }
       ]
     },
