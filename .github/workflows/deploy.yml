@@ -5,6 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+env:
+  CUSTOM_DOMAIN: blog.layscloud.top
+
 permissions:
   contents: read
   pages: write
@@ -28,6 +31,10 @@ jobs:
 
       - name: Set BASE_PATH
         run: |
+          if [ -n "${CUSTOM_DOMAIN}" ]; then
+            echo "BASE_PATH=/" >> $GITHUB_ENV
+            exit 0
+          fi
           REPO_NAME="${{ github.event.repository.name }}"
           OWNER="${{ github.repository_owner }}"
           if [ "$REPO_NAME" = "$OWNER.github.io" ]; then
