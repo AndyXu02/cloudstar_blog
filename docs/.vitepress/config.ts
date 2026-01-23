@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import UnoCSS from '@unocss/vite'
 
 const basePath = (globalThis as any)?.process?.env?.BASE_PATH || '/'
 
@@ -7,6 +8,9 @@ export default defineConfig({
   title: 'CloudStar 装机文档',
   description: '高性价比装机｜标准化交付｜按需DIY定制',
   base: basePath,
+  vite: {
+    plugins: [UnoCSS()]
+  },
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -20,6 +24,8 @@ export default defineConfig({
             { text: '教程总览', link: '/tutorial/' },
             { text: '系统激活', link: '/tutorial/activation' },
             { text: '重做系统', link: '/tutorial/reinstall' },
+            { text: '硬盘分区', link: '/tutorial/disk' },
+            { text: 'Office安装', link: '/tutorial/install_office' },
             { text: '故障排查', link: '/tutorial/troubleshooting' }
           ]
         }

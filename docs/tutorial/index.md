@@ -6,4 +6,6 @@
 
 - [系统激活](/tutorial/activation)
 - [重做系统](/tutorial/reinstall)
+- [硬盘分区](/tutorial/disk)
+- [Office安装](/tutorial/install_office)
 - [故障排查](/tutorial/troubleshooting)

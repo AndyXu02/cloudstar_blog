@@ -5,7 +5,6 @@ description: 高性价比装机｜标准化交付｜按需DIY定制
 
 hero:
   name: 云之星DIY
-  text: DIY 电脑网店技术文档
   tagline: 高性价比装机｜标准化交付｜按需DIY定制
   actions:
     - theme: brand
@@ -48,9 +47,6 @@ features:
   </a>
 </div>
 
-## 介绍（占位）
-
-在这里放置店铺简介、服务范围与交付标准。
 
 <div id="contact"></div>
 
@@ -58,16 +54,14 @@ features:
 
 <div class="home-qr-grid">
   <div class="home-qr-card">
-    <div class="home-qr-title">微信扫码联系（占位二维码）</div>
-    <img class="home-qr-img" src="/wechat-qr.svg" alt="微信二维码" />
-    <div class="home-qr-desc">你可以把这里替换成真实二维码图片。</div>
+    <div class="home-qr-title">微信扫码联系</div>
+    <img class="home-qr-img" src="/wechat-qr.png" alt="微信二维码" />
   </div>
   <div class="home-qr-card">
-    <div class="home-qr-title">服务说明（占位）</div>
+    <div class="home-qr-title">服务说明</div>
     <div class="home-qr-desc">
-      <div>服务时间：09:00-22:00（占位）</div>
-      <div>远程协助：支持（占位）</div>
-      <div>请先准备：配置清单、故障现象、照片/视频（占位）</div>
+      <div>服务时间：10:00-23:00</div>
+      <div>请先准备：配置清单、购买记录、故障现象、照片/视频</div>
     </div>
   </div>
 </div>
@@ -78,20 +72,16 @@ features:
 
 <div class="home-qr-grid">
   <div class="home-qr-card">
-    <div class="home-qr-title">店铺二维码（占位）</div>
-    <img class="home-qr-img" src="/shop-qr.svg" alt="店铺二维码" />
-    <div class="home-qr-desc">你可以把这里替换成真实二维码图片。</div>
+    <div class="home-qr-title">店铺二维码</div>
+    <img class="home-qr-img" src="/shop-qr.png" alt="店铺二维码" />
   </div>
   <div class="home-qr-card">
-    <div class="home-qr-title">店铺入口（占位）</div>
+    <div class="home-qr-title">店铺入口</div>
     <div class="home-qr-desc">
-      <div>淘宝： https://example.com</div>
-      <div>京东： https://example.com</div>
-      <div>其他： https://example.com</div>
+      <div>【闲鱼】https://m.tb.cn/h.7oiaOor?tk=b2GFUg2Bm8D CZ193 「云之星DIY的闲鱼号，快来关注TA吧～」
+点击链接直接打开</div>
     </div>
   </div>
 </div>
 
-## 说明
 
-本页为占位结构，你可以随时替换各区块内容。

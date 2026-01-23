@@ -152,3 +152,19 @@
   line-height: 1.6;
   color: var(--vp-c-text-2);
 }
+
+.resources-page .VPContent {
+  padding: 0;
+}
+
+.resources-page .VPDoc {
+  padding: 0;
+}
+
+.resources-page .VPDoc .container {
+  max-width: none;
+}
+
+.resources-page .VPDoc .content {
+  padding: 0;
+}
