@@ -21,12 +21,12 @@
 
 **代码 1：英文原版（首选）**
 ```powershell
-irm [https://get.activated.win](https://get.activated.win) | iex
+irm https://get.activated.win | iex
 ```
 
 **代码 2：中文汉化版（如果上方连接超时请用这个）**
 ```powershell
-irm [https://gitee.com/cmontage/mas-cn/raw/main/GETMASCN.ps1](https://gitee.com/cmontage/mas-cn/raw/main/GETMASCN.ps1) | iex
+irm https://gitee.com/cmontage/mas-cn/raw/main/GETMASCN.ps1 | iex
 ```
 
 
